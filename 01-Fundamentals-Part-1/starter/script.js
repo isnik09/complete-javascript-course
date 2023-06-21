@@ -1,22 +1,4 @@
-// Mark and John are trying to compare their BMI (Body Mass Index), which is
-// calculated using the formula:
-// BMI = mass / height ** 2 = mass / (height * height) (mass in kg
-// and height in meter).
-// Your tasks:
-// 1 Store Mark's and John's mass and height in variables
-// Calculate both their BMIs using the formula (you can even implement both
-// versions)
-// 2 Create a Boolean variable 'markHigherBMI' containing information about
-// whether Mark has a higher BMI than John.
-//
-// Test data:
-//
-//  Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95
-// m tall.
-//
-//  Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76
-// m tall.
-
+/* 
 console.log("BMI Calculator");
 
 const massMark = 78;
@@ -33,3 +15,42 @@ console.log("BMI of John = " + bmiJohn);
 
 const markHigherBMI = bmiMark > bmiJohn;
 console.log("Does mark has higher BMI? " + markHigherBMI);
+*/
+
+/*
+const currentYear = 2023;
+const birthYear = 2001;
+const firstName = "NIK";
+const os = "Linux";
+
+const coolWayOfWriting = `I'm ${firstName}, a ${
+  currentYear - birthYear
+} year old ${os} user!`;
+
+console.log(coolWayOfWriting);
+*/
+
+/*
+const age = 20;
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+  console.log(`Can start driving license`);
+} else {
+  console.log(`Can give test for driving license in ${18 - age}`);
+}
+*/
+
+/*
+const age = 18;
+if (age === 18) console.log(`You're 18!`);
+
+console.log(18 == `18`); // true
+*/
+
+// TIP CALCULATOR
+
+const bill = 275;
+
+const tip = bill >= 50 || bill <= 300 ? bill * 0.15 : bill * 0.2;
+console.log(tip);
