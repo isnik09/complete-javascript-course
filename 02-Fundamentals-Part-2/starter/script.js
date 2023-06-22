@@ -193,6 +193,7 @@ for (let i = 1; i <= 10; i++) {
   console.log(`This is the ${i} iteration`);
 }*/
 
+/*
 const myArray = [
   "NIK",
   "The Emperor",
@@ -210,3 +211,24 @@ for (let i = myArray.length - 1; i >= 0; i--) {
   reverseArray.push(myArray[i]);
 }
 console.log(reverseArray);
+*/
+
+/*
+let rep = 1;
+while (rep <= 10) {
+  console.log(rep);
+  rep++;
+}
+*/
+
+/*
+let i = 0;
+let dice = Math.trunc(Math.random() * 6) + 1;
+while (dice != 6) {
+  i++;
+  console.log(`You've rolled a ${dice}`);
+  dice = Math.trunc(Math.random() * 6) + 1;
+  if (dice === 6)
+    console.log(`You won!!! It took ${i} roll${i == 1 ? `` : `s`}`);
+}
+*/
