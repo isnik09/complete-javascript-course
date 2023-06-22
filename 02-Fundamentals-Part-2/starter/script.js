@@ -99,3 +99,44 @@ const checkWinner = function (teamOneScore, teamTwoScore) {
 console.log(checkWinner(teamOneScore, teamTwoScore));
 
 */
+
+/*
+const friends = new Array(`Ana`, `Elsa`, `Olaf`);
+
+const nik = [`NIK`, 2001 - 2023, friends];
+console.log(nik);
+*/
+
+/*
+const friends = ["Ana", "Elsa", "Olaf"];
+friends.push("Christoph");
+friends.unshift("Christoph");
+
+const popped = friends.pop();
+console.log(popped);
+console.log(friends);
+
+friends.shift();
+console.log(friends);
+
+console.log(friends.indexOf("Elsa"));
+
+console.log(friends.includes("Olaf"));
+*/
+
+/*
+const calculateTip = (bill) =>
+  bill >= 50 || bill <= 300 ? bill * 0.15 : bill * 0.2;
+
+const bills = [125, 555, 44];
+const tips = [
+  calculateTip(bills[0]),
+  calculateTip(bills[1]),
+  calculateTip(bills[2]),
+];
+console.log(tips);
+
+const totalBill = [tips[0] + bills[0], tips[1] + bills[1], tips[2] + bills[2]];
+console.log(`Total bill = ${totalBill}`);
+
+*/
