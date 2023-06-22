@@ -187,3 +187,26 @@ console.log(
   } than ${person2.firstName} ${person2.lastName}'s BMI (${person2.bmi()})`
 );
 */
+
+/*
+for (let i = 1; i <= 10; i++) {
+  console.log(`This is the ${i} iteration`);
+}*/
+
+const myArray = [
+  "NIK",
+  "The Emperor",
+  2023 - 2001,
+  ["Ana", "Elsa", "Christoph"],
+];
+
+// for (let i = 0; i < myArray.length; i++) {
+//   console.log(myArray[i]);
+// }
+
+const reverseArray = [];
+
+for (let i = myArray.length - 1; i >= 0; i--) {
+  reverseArray.push(myArray[i]);
+}
+console.log(reverseArray);
