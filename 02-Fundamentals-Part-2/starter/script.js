@@ -140,3 +140,50 @@ const totalBill = [tips[0] + bills[0], tips[1] + bills[1], tips[2] + bills[2]];
 console.log(`Total bill = ${totalBill}`);
 
 */
+/*
+const nik = {
+  firstName: "NIK",
+  lastName: "Nerkar",
+  age: 2023 - 2001,
+  job: "Emperor",
+  friends: ["Nikola Tesla", "Thomas Edison", "Issac Newton"],
+};
+// nik.job = "Super Emperor";
+console.log(nik.job);
+console.log(nik["lastName"]);
+console.log(
+  `${nik.firstName} has ${nik.friends.length} friends, and his best friend is called ${nik.friends[0]}`
+);
+*/
+
+/*
+const calcBmi = function (height, weight) {
+  return weight / (2 * height);
+};
+
+const person1 = {
+  firstName: `John`,
+  lastName: `Smith`,
+  height: 1.95,
+  weight: 92,
+  bmi: function () {
+    return calcBmi(this.height, this.weight);
+  },
+};
+
+const person2 = {
+  firstName: `Mark`,
+  lastName: `Miller`,
+  height: 1.69,
+  weight: 78,
+  bmi: function () {
+    return calcBmi(this.height, this.weight);
+  },
+};
+
+console.log(
+  `${person1.firstName} ${person1.lastName}'s BMI (${person1.bmi()}) is ${
+    person1.bmi() > person2.bmi() ? `higher` : `lower`
+  } than ${person2.firstName} ${person2.lastName}'s BMI (${person2.bmi()})`
+);
+*/
