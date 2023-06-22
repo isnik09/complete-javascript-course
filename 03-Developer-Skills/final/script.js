@@ -159,3 +159,20 @@ const printForecast = function (arr) {
 printForecast(data1);
 */
 
+const temperatures = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
+
+let maxTemperature = temperatures[0];
+let minTemperature = temperatures[0];
+
+for (let i = 0; i <= temperatures.length - 1; i++) {
+  if (typeof temperatures[i] != 'string') {
+    if (maxTemperature < temperatures[i]) {
+      maxTemperature = temperatures[i];
+    }
+    if (minTemperature > temperatures[i]) {
+      minTemperature = temperatures[i];
+    }
+  }
+}
+
+console.log(`Amplitude is ${maxTemperature - minTemperature}`);
