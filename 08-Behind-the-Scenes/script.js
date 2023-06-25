@@ -33,3 +33,11 @@
 //   console.log(this);
 // };
 // calcAgeArrow(2001);
+
+// const nik = {
+//   birthYear:  2001,
+//   calcAge: function () {
+//     console.log(2023 - this.birthYear);
+//   },
+// };
+// nik.calcAge();
