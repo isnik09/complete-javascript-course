@@ -27,3 +27,50 @@ let bb = 20;
 [aa, bb] = [bb, aa];
 console.log(aa, bb);
 */
+
+/*
+const restaurant = {
+  restaurantName: "El classico",
+  location: "Classic city, Italy",
+  categories: ["One", "Two", "Three", "Four"],
+  starterMenu: ["SM1", "SM2", "SM3"],
+  mainMenu: ["MM1", "MM2", "MM3"],
+  openingHours: {
+    tue: {
+      open: 12,
+      close: 22,
+    },
+    fri: {
+      open: 11,
+      close: 23,
+    },
+    sat: {
+      open: 0,
+      close: 24,
+    },
+  },
+
+  order: function (starterIndex, mainIndex) {
+    return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];
+  },
+};
+
+const { restaurantName, openingHours, categories } = restaurant;
+console.log(restaurantName, openingHours, categories);
+
+console.log(restaurant.order(1, 2));
+
+*/
+
+/*
+const oneArr = ["One", "Two", "Three"];
+const twoArr = [1, 2, 3];
+
+const joinedArr = [...oneArr, ...twoArr];
+console.log(joinedArr);
+
+const fName = "NIK";
+const letters = [...fName, 1, 2, 3, 4, 5];
+
+console.log(letters);
+*/
