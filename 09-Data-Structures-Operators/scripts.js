@@ -101,3 +101,7 @@ console.log(a ?? b);
 
 console.log(null ?? "NIK");
 */
+
+const arr = ["Ana", "Elsa", "Olaf", "Christoph"];
+for (const character of arr) {
+}
