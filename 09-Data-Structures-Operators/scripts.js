@@ -92,3 +92,12 @@ console.log(guests || 14);
 console.log(guests && 14);
 
 */
+
+/*
+
+const a = null;
+const b = "NIK";
+console.log(a ?? b);
+
+console.log(null ?? "NIK");
+*/
