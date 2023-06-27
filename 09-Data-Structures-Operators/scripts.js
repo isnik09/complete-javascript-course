@@ -74,3 +74,21 @@ const letters = [...fName, 1, 2, 3, 4, 5];
 
 console.log(letters);
 */
+
+/*
+
+console.log(3 || "NIK"); // 3
+console.log("" || "NIK"); // NIK
+console.log(undefined || null); //null
+console.log(true || 0); // true
+
+*/
+
+/*
+
+let guests = null;
+
+console.log(guests || 14);
+console.log(guests && 14);
+
+*/
