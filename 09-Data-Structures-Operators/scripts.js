@@ -102,6 +102,13 @@ console.log(a ?? b);
 console.log(null ?? "NIK");
 */
 
+/*
+
+// FOR OF LOOP
+
 const arr = ["Ana", "Elsa", "Olaf", "Christoph"];
 for (const character of arr) {
+  console.log(character);
 }
+
+*/
