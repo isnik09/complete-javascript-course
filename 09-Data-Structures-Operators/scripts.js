@@ -116,6 +116,7 @@ for (const character of arr) {
 /*
 // LOOPING OVER OBJECTS VAI KEY AND VALUES
 
+
 const nik = {
   fName: "NIK",
   lName: "NERKAR",
@@ -123,8 +124,33 @@ const nik = {
   likings: "Creation",
 };
 
-for (const attrs of Object.keys(nik)) {
+for (const attrs of Object.values(nik)) {
   console.log(attrs);
 }
+
+*/
+/*
+// SETS
+
+const gamePlayed = new Set([
+  "NFS",
+  "Forza",
+  "COD",
+  "RDR2",
+  "NFS",
+  "NFS",
+  "Forza",
+  "PROJECT SPEED",
+]);
+
+console.log(gamePlayed);
+console.log(new Set("SPEED"));
+console.log(gamePlayed.size);
+console.log(gamePlayed.has("GTA"));
+console.log(gamePlayed.add("EW"));
+for (const game of gamePlayed) {
+  console.log(game);
+}
+console.log(gamePlayed.clear);
 
 */
