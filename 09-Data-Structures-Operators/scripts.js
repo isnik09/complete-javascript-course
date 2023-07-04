@@ -203,3 +203,12 @@ const ans = Number(prompt(`Your ans`));
 alert(questions.get(questions.get("ans") === ans));
 
 */
+
+/*/
+const announcement = `All passengers come to boarding door 22, boarding door 22!`;
+
+console.log(announcement.replace(/door/g, "gate"));
+console.log(announcement.replaceAll("door", "gate"));
+
+
+/*/
