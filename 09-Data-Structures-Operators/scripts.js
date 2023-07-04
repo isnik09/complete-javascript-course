@@ -180,3 +180,26 @@ console.log(rest.size);
 console.log(rest.clear);
 
 */
+
+/*
+
+const questions = new Map([
+  ["que", "What is best programming language?"],
+  [1, "C"],
+  [2, "Python"],
+  [3, "JavaScript"],
+  ["ans", 3],
+  [true, "Amazing You're correct"],
+  [false, "Try again...:("],
+]);
+
+console.log(questions.get("que"));
+for (const [key, value] of questions) {
+  if (typeof key === "number") console.log(`Answer ${key}, : ${value}`);
+}
+
+const ans = Number(prompt(`Your ans`));
+
+alert(questions.get(questions.get("ans") === ans));
+
+*/
