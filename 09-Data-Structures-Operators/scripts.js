@@ -154,3 +154,29 @@ for (const game of gamePlayed) {
 console.log(gamePlayed.clear);
 
 */
+
+// MAPS
+
+/*
+
+const rest = new Map();
+rest.set("name", "Classico Italiano");
+rest.set(1, "Seattle, US");
+rest.set(2, "Tokyo, Japan");
+
+rest
+  .set("categories", ["Indian", "Italian", "French"])
+  .set("open", 11)
+  .set("close", 23)
+  .set(true, "We are open")
+  .set(false, "We are closed");
+
+// console.log(rest);
+console.log(rest.get(1));
+console.log(rest.get(true));
+console.log(rest.has("categories"));
+console.log(rest.delete(1));
+console.log(rest.size);
+console.log(rest.clear);
+
+*/
