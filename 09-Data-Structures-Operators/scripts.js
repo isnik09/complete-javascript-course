@@ -112,3 +112,19 @@ for (const character of arr) {
 }
 
 */
+
+/*
+// LOOPING OVER OBJECTS VAI KEY AND VALUES
+
+const nik = {
+  fName: "NIK",
+  lName: "NERKAR",
+  age: 22,
+  likings: "Creation",
+};
+
+for (const attrs of Object.keys(nik)) {
+  console.log(attrs);
+}
+
+*/
